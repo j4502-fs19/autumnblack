@@ -31,3 +31,7 @@ background-color: #ffb6c1;
   font-family: Helvetica, Arial, serif;
   padding: 4px;
 }
+
+#nav a:hover, #nav a:visited {
+  background-color: #e0115f;
+}
