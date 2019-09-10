@@ -2,18 +2,22 @@
 
 p {
   font-family: Helvetica, arial, sans-serif;
+  text-align: center;
 }
 
 h1 {
   font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Manjari', sans-serif;
+  text-align: center;
 }
 
 body {
 background-color: #ffb6c1;
+text-align: center;
 }
 
 #nav {
@@ -42,5 +46,6 @@ background-color: #ffb6c1;
 
 img {
   border: none;
+
 
 }
