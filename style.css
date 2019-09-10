@@ -18,7 +18,7 @@ background-color: #ffb6c1;
 }
 
 #nav li {
-  border-bottom: 3 px solid #ffffff;
+  border-bottom: 10 px solid #ffffff;
 }
 
 #nav a:link, #nav a:visited {
@@ -30,4 +30,8 @@ background-color: #ffb6c1;
   text-decoration: none;
   font-family: Helvetica, Arial, serif;
   padding: 4px;
+}
+
+#nav a:hover, #nav a:visited {
+  background-color: #e0115f;
 }
