@@ -21,7 +21,7 @@ background-color: #ffb6c1;
   border-bottom: 10 px solid #fff;
 }
 
-#nav a:link, #nav a:visited {
+#nav a:link {
   display: block;
   color: #fff;
   background-color: #e75480;
