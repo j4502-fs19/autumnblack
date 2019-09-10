@@ -18,7 +18,7 @@ background-color: #ffb6c1;
 }
 
 #nav li {
-  border-bottom: 1 px solid #ccc;
+  border-bottom: 3 px solid #ccc;
 }
 
 #nav a:link, #nav a:visited {
@@ -29,5 +29,5 @@ background-color: #ffb6c1;
   text-align: center;
   text-decoration: none;
   font-family: Helvetica, Arial, serif;
-  padding: 7px;
+  padding: 4px;
 }
