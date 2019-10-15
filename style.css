@@ -20,6 +20,12 @@ background-color: #ffb6c1;
 text-align: center;
 }
 
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+}
+
 #nav {
   padding: 0;
   list-style-type: none;
