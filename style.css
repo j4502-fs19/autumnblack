@@ -57,21 +57,10 @@ img {
 
 }
 
-.#nav {
-	display: flex;
-	flex-direction: column;
-}
-
-@media (min-width: 599px) {
-	.#nav {
+@media screen and (max-width: 599px) {
+	#nav {
 		flex-direction: row;
-		justify-content: center;
-	}
-}
-
-@media (min-width: 799px) {
-
-	.#nav{
-		margin-right: auto;
+		justify-content: space-around;
+    text-align:center;
 	}
 }
