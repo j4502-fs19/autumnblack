@@ -56,7 +56,6 @@ img {
 	#nav {
 		flex-direction: row;
 		justify-content: space-around;
-    flex-wrap: wrap;
     text-align:center;
 	}
 }
