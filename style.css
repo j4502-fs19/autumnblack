@@ -26,6 +26,7 @@ text-align: center;
   flex-direction: row;
   justify-content: space-around;
 
+
 }
 
 #nav {
@@ -61,6 +62,11 @@ img {
 .container {
 	display: flex;
 }
+
+#nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
 
 
 @media (min-width:599px) {
