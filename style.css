@@ -23,7 +23,6 @@ text-align: center;
 
 nav ul {
   display: flex;
-  flex-flow: column;
 }
 
 #nav {
