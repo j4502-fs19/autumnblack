@@ -21,7 +21,7 @@ text-align: center;
 }
 
 
-nav ul {
+#nav {
   display: flex;
   flex-direction: row;
 }
