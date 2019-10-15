@@ -20,22 +20,6 @@ background-color: #ffb6c1;
 text-align: center;
 }
 
-
-@media screen and (min-width:600px) {
-  nav {
-    float: left;
-    width: 25%;
-  }
-  section {
-    margin-left: 25%;
-  }
-}
-@media screen and (max-width:599px) {
-  nav li {
-    display: inline;
-  }
-}
-
 #nav {
   display: flex;
   flex-direction: row;
@@ -79,15 +63,16 @@ img {
 }
 
 
-@media (min-width:599px) {
-	.container{
-		flex-direction:row;
+@media (max-width:480px) {
+	nav{
+		flex-direction:column;
 		justify-content: center;
 		}
 }
 
-@media (min-width:799px){
-		.item-1{
-			margin-right:auto;
+@media (min-width:480px){
+		nav{
+			flex-direction:row;
+      justify-content: center
 		}
 }
