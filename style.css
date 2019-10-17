@@ -64,3 +64,81 @@ img {
     text-align:center;
 	}
 }
+
+.cards{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:(2, 100px);
+  grid-gap: 20px;
+  grid-template-areas:
+  "a b"
+  "c d";
+}
+
+.cards li {
+  background-color: #e0115f;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card1{
+  grid-area:a;
+}
+
+.card2{
+  grid-area:b;
+}
+
+.card3{
+  grid-area:c;
+}
+
+.card4{
+  grid-area:d;
+}
+
+}
+
+nav3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content:center;
+  grid-template-areas:
+  "a b"
+  "c d";
+}
+
+.nav3{
+  display: grid;
+  grid-template-areas:
+  "a b"
+  "c d";
+}
+
+.Twitter{grid-area:a;
+}
+
+.Instagram{grid-area:b;
+}
+
+.Facebook{grid-area:c;
+}
+
+.OtherThings{grid-area:d;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "a b"
+  "c d";
+  justify-content: center;
